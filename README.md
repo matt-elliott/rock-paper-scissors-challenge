@@ -51,7 +51,4 @@ You will find all the required assets in the `/images` folder. The assets are al
 
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
-## Submission
-Fork this repository and send us a pull request. We'll review it and get back to you.
-
 **Have fun building!** 🚀
