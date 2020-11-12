@@ -6,7 +6,7 @@
 
 Your challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the design as possible.
 
-You can use a JavaScript framework/library on the front-end such as [React](https://reactjs.org). 
+You can use a front-end JavaScript framework/library such as [React](https://reactjs.org). 
 
 Your users should be able to:
 
