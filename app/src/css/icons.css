@@ -1,0 +1,51 @@
+.pog-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  min-height: 200px;
+  padding: 4rem 0;
+}
+.pog-icon {
+  appearance: none;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  width: 12rem;
+  height: 12rem;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 500ms ease-out;  
+  margin: 0;
+  padding: 0;
+  border-width: 1.5rem;
+  border-style: solid;
+  cursor: pointer;
+}
+.pog-icon:focus {
+  outline: none;
+}
+.pog-icon:nth-child(2) {
+  margin-top: 12rem;
+}
+.pog-icon.icon-rock {
+  background-image: url('../images/icon-rock.svg');
+  border-color: var(--rock-border-color);
+}
+.pog-icon.icon-paper {
+  background-image: url('../images/icon-paper.svg');
+  border-color: var(--paper-border-color);
+}
+.pog-icon.icon-scissors {
+  background-image: url('../images/icon-scissors.svg');
+  border-color: var(--scissors-border-color);
+}
+@media screen and (max-width: 991px) {
+  .pog-container {
+    padding: 1rem;
+  }
+  .pog-icon {
+    height: 7rem;
+    border-width: 1rem;
+  }
+}

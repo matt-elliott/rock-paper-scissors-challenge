@@ -1,40 +1,5 @@
-   body {
-      background-color: #444;
-      color: #ccc;
-    }
-    main {
-      max-width: 800px;
-      margin: 200px auto;
-      padding: 24px;
-      text-align: center;
-    }
-    h1 span {
-      display: block;
-    }
-    label, input[type=radio] {
-      cursor: pointer;
-    }
-    input[type=radio] {
-      appearance: none;
-      display: inline-block;
-      vertical-align: middle;
-      width: 25px;
-      height: 25px;
-      margin: 20px 40px 20px 20px;
-      border: none;
-      background-color: #fff;
-      border-radius: 50%;
-      transition: all 500ms ease-out;
-    }
-    input[type=radio]:checked {
-      background-color: #f00;
-    }
-    button[type=submit] {
-      display: block;
-      appearance: none;
-      padding: 12px;
-      margin: 34px auto;
-      background-color: #efefef;
-      /* margin: 0; */
-      border: 1px solid #000;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+@import url('./css/global.css');
+@import url('./css/header.css');
+@import url('./css/icons.css');

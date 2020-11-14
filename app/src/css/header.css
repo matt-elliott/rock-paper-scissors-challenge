@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: var(--border-color) solid 1px;
+  border-radius: 1rem;
+}
+.logo {
+  min-width: 23%;
+}
+.score_card {
+  background-color: #fff;
+  border-radius: 1rem;
+  min-width: 23%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.score-title {
+  color: var(--score-text);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+.score-text {
+  display: block;
+  color: var(--dark-text);
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 12px;
+  }
+  header {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  header h1, .score_card {
+    width: 100%;
+  } 
+}
